@@ -1,0 +1,25 @@
+<html>
+	
+	<body>
+		<input id="inp" type="text" />
+		<p id="moo"></p>
+	
+	
+		<script>
+			var i = document.getElementById ('inp');
+			var p = document.getElementById ('moo');
+			
+			function log (message) {
+				p.innerHTML += message + '<br/>';
+			}
+			
+			window.onresize = function () { log('window.resize'); }
+			window.onorientationchange = function () { log('window.orientationchange'); }
+			i.onfocus = function () { log('input.focus'); }
+			i.onblur = function () { log('input.blur'); }
+		
+		</script>
+	
+
+	</body>
+	

@@ -1,0 +1,24 @@
+
+body {
+	background-color: grey;
+}
+
+
+#dimensions {
+	background-color: black;
+	border: 1px solid red;
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	font-size: 42px;
+}
+
+
+input[type=text] {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 250px;
+}
+	
